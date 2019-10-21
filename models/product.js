@@ -19,8 +19,6 @@ const getProductsFromFile = cb => {
         console.log('bruh');
         cb([]);
       }
-      
-      //console.log(JSON.parse(fileContent).length);
     }
   });
 };
