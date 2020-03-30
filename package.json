@@ -13,8 +13,11 @@
   "devDependencies": {
     "nodemon": "^1.18.3"
   },
-  "nodemonConfig": {        
-    "ignore": ["data/products.json"]  
+  "nodemonConfig": {
+    "ignore": [
+      "data/products.json",
+      "data/cart.json"
+    ]
   },
   "dependencies": {
     "body-parser": "^1.18.3",
