@@ -20,7 +20,6 @@ exports.postAddProduct = (req, res, next) => {
       res.redirect('/');
     })
     .catch(err => console.log(err));
-  res.redirect('/');
 };
 
 exports.getEditProduct = (req, res, next) => {
